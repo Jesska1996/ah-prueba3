@@ -1,0 +1,55 @@
+.fondo-inicio {
+  background-color:rgb(45, 23, 38);  
+  padding: 5%;
+  margin: 0; 
+}
+
+
+.card-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+
+.character-card {
+  background-color: hsla(327, 71%, 86%, 0.705);
+  text-align: center;
+  position: relative;
+  border: solid 2px white;
+  width: calc(33.33% - 20px);
+  padding: 4%;
+  border-radius: 5%;
+
+}
+
+.character-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 19%;
+  border: solid 2px white;
+  box-shadow: 0px 2px 4px rgba(216, 101, 147, 0.693);
+  transition: background-color 0.3s ease;
+}
+
+.name-card {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  align-content: center;
+  background-color:rgb(45, 23, 38);  
+  color: white; 
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border: solid 2px white;
+  margin-top: 1%;
+}
+
+.status-card,
+.species-card {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:white;
+  font-size:medium;
+  margin: 0;
+  padding: 0; 
+}
